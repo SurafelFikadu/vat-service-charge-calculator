@@ -1,0 +1,60 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Animation for the background image */
+@keyframes change {
+    0% {
+        background-image: url("./src/img/bg-img-1.jpg");
+    }
+
+    33% {
+        background-image: url("./src/img/bg-img-2.jpg");
+    }
+
+    64% {
+        background-image: url("./src/img/bg-img-3.jpg");
+    }
+
+    100% {
+        background-image: url("./src/img/bg-img-4.jpg");
+    }
+}
+
+section {
+    animation: change 7s infinite ease;
+}
+
+
+/* Animation for text color change */
+@keyframes changeColor {
+    0% {
+        color: green;
+    }
+
+    33% {
+        color: yellow;
+    }
+
+    64% {
+        color: red;
+    }
+
+    100% {
+        color: green;
+    }
+}
+
+section #h1 span {
+    color: yellow;
+    /* rgb(126, 119, 102); */
+}
+
+#h1 {
+    animation: changeColor 7s infinite ease-in-out;
+    /* width: 100vw; */
+}
