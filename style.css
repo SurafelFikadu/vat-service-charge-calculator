@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+.preload * {
+    transition: none;
+}
+
 /* Animation for the background image */
 @keyframes change {
     0% {
