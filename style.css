@@ -30,7 +30,7 @@
 }
 
 section {
-    animation: change 7s infinite ease;
+    animation: change 7s infinite linear;
 }
 
 

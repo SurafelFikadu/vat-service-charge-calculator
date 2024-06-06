@@ -72,7 +72,15 @@ $('document').ready(function () {
         background: "rgb(240, 240, 243)", 
         borderRadius: "8px"
     })
+
     $("#vat-percentage, #service-charge").css("color", "rgb(90, 20, 201")
+    
+    $("#total-amount").css({
+        color: "white",
+        background: "black",
+        padding: "7px",
+        borderRadius: "7px",
+    })
     $(".link").css({
         position: "absolute",
         bottom: "30px",

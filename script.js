@@ -19,7 +19,7 @@ function vatCalculate() {
         return totalAmount.textContent = '';
     }
     total = iA + (vP * iA)/100 + (cC * iA)/100;
-    totalAmount.textContent = `Total amount = ${total}`;
+    totalAmount.textContent = `${total}`;
 }
 
 btnCalculate.onclick = vatCalculate;
