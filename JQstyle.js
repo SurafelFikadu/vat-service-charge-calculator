@@ -80,7 +80,9 @@ $('document').ready(function () {
         background: "black",
         padding: "7px",
         borderRadius: "7px",
+        cursor: "pointer",
     })
+
     $(".link").css({
         position: "absolute",
         bottom: "30px",
